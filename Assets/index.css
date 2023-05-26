@@ -1,0 +1,60 @@
+/****** Mobile First ******/
+
+p{
+    /* réglage mobile et + */
+    font-family:sans-serif;
+    font-size:16px;
+  }
+  @media screen and (min-width:375px){
+    p{
+     /* réglage à partir de 640px et + : corps un peu plus grand et même typo */
+      font-size:21px;
+    }
+
+/****** Général ******/
+:root {
+    --Turquoise: #99E2D0;
+    --Vert: #008766;
+    --Cyan: #89c8fa;
+    --Bleu-Marine: #003a68;
+    --Violet: #9356dc;
+}
+
+
+
+/****** Liens / Boutton ******/
+a {
+    text-decoration: none;
+}
+
+/****** Restaurants ******/
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+.card img {
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 16px;
+}
+
+.restaurants-card img {
+    width: 91%;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 0px;
+    object-fit: cover;
+}
+
+.restaurants-card {
+    width: 100%;
+}
+
+}
