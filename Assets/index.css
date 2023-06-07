@@ -25,12 +25,78 @@ a {
     color: black;
 }
 
+/****** Fonctionnement ******/
+
+.fonctionnement {
+    margin-top: 48px;
+    margin-bottom: 68px;
+}
+
+.fonctionnement h2 {
+    margin-bottom: 26px;
+}
+
+/****** Flexbox ******/
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.just-cont {
+    justify-content: center;
+}
+
+.align {
+    align-items: center;
+}
+
+.align-fstart {
+    align-items: flex-start;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
 /****** Discover ******/
 
 .discover {
     background-color: #F7F7F7;
 }
 
+.discover p {
+    font: var(--Text);
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 34px;
+    margin-right: 26px;
+}
+
+.discover h2 {
+    font: var(--Text);
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 42px;
+    margin-right: 58px;
+    margin-bottom: 0px;
+}
+
+.discover button {
+    margin-bottom: 57px;
+    margin-left: 82px;
+    margin-right: 75px;
+    color: white;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 500;
+}
 /****** OhMyFood ******/
 
 .Titre {
@@ -45,6 +111,7 @@ a {
     width: 44%;
     height: 44px;
     font: var(--Title);
+    color: #101010;
     font-weight: 400;
     font-size: 30px;
     font-style: italic;
@@ -60,6 +127,17 @@ a {
     font-size: 16px;
     width: 100%;
     height: 50px;
+}
+
+.Localisation button {
+    border-style: none;
+    background-color: var(--Background-Dark);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Localisation i {
+    margin-right: 17px;
 }
 
 /****** Bouttons ******/
@@ -112,10 +190,28 @@ a {
 
 .restaurants {
     background-color: var(--Background-Restaurants);
+    padding-bottom: 66px;
+}
+
+.restaurants h2 {
+    padding-top: 54px;
+    margin-top: 0px;
 }
 
 /****** Footer ******/
 
 footer {
     background-color: var(--Background-Darker);
+    color: white;
+    padding-left: 25px;
+}
+
+footer h3 {
+    margin-top: 0px;
+    padding-top: 22px;
+}
+
+.Contact {
+    margin-bottom: 0px;
+    padding-bottom: 22px;
 }
