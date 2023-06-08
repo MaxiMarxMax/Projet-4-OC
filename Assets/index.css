@@ -25,6 +25,26 @@ a {
     color: black;
 }
 
+/****** SVG ******/
+
+.fa-store {
+    color: var(--Purple);
+    margin-right: 20px;
+}
+
+.fa-list-ul {
+    margin-right: 23px;
+    color: #7E7E7E;
+}
+
+.fa-mobile-screen {
+    margin-right: 27px;
+    color: #7E7E7E;
+}
+
+.fa-heart {
+}
+
 /****** Fonctionnement ******/
 
 .fonctionnement {
@@ -34,6 +54,25 @@ a {
 
 .fonctionnement h2 {
     margin-bottom: 26px;
+    margin-left: 20px;
+    font: var(--Text);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.fonctionnement p {
+    font: var(--Text);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    color: #000000;
+    width: 85%;
+    height: 72.30px;
+    margin-right: 20px;
+    margin-left: 32px;
+    background-color: #f6f6f6;
 }
 
 /****** Flexbox ******/
@@ -52,6 +91,14 @@ a {
     justify-content: center;
 }
 
+.just-cont-fstart {
+    justify-content: flex-start;
+}
+
+.just-cont-fend {
+    justify-content: flex-end;
+}
+
 .align {
     align-items: center;
 }
@@ -60,8 +107,26 @@ a {
     align-items: flex-start;
 }
 
+.align-fend {
+    align-items: flex-end;
+}
+
 .wrap {
     flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+}
+
+/****** Cadres ******/
+
+.border20 {
+    border-radius: 20px;
+}
+
+.shadow {
+    box-shadow: 0px 4px 15px;
 }
 
 /****** Discover ******/
@@ -76,6 +141,7 @@ a {
     font-weight: 300;
     margin-left: 34px;
     margin-right: 26px;
+    margin-bottom: 27px;
 }
 
 .discover h2 {
@@ -196,6 +262,28 @@ a {
 .restaurants h2 {
     padding-top: 54px;
     margin-top: 0px;
+    margin-left: 20px;
+}
+
+.card-title {
+    margin-left: 13px;
+    margin-bottom: 0px;
+    margin-top: 14px;
+    font: var(--Text);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.restaurants-card p {
+    margin-left: 13px;
+    margin-bottom: 12px;
+    margin-top: 5px;
+    font: var(--Text);
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
 }
 
 /****** Footer ******/
