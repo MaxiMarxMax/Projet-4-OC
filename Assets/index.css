@@ -42,7 +42,16 @@ a {
     color: #7E7E7E;
 }
 
-.fa-heart {
+.heart {
+    width: 22px;
+    height: 21px;
+    position: absolute;
+    left: 293px;
+    bottom: 33px;
+}
+
+.heartlinear :active {
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
 }
 
 .fa-utensils {
@@ -63,14 +72,14 @@ a {
 .fonctionnement h2 {
     margin-bottom: 26px;
     margin-left: 20px;
-    font: var(--Text);
+    font-family: var(--Text);
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
 }
 
 .fonctionnement p {
-    font: var(--Text);
+    font-family: var(--Text);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -145,7 +154,7 @@ a {
 }
 
 .discover p {
-    font: var(--Text);
+    font-family: var(--Text);
     font-size: 18px;
     font-weight: 300;
     margin-left: 34px;
@@ -155,7 +164,7 @@ a {
 }
 
 .discover h2 {
-    font: var(--Text);
+    font-family: var(--Text);
     font-size: 24px;
     font-weight: 700;
     margin-top: 40px;
@@ -187,12 +196,12 @@ a {
 .OhMyFood {
     width: 43.2%;
     height: 44px;
-    font: var(--Title);
     color: #101010;
     font-weight: 400;
     font-size: 30px;
     font-style: italic;
     line-height: 44px;
+    font-family:  var(--Title);
 }
 
 /****** Localisation ******/
@@ -209,7 +218,7 @@ a {
 .Localisation button {
     border-style: none;
     background-color: var(--Background-Dark);
-    font-family: var(--Title);
+    font-family: var(--Text);
     line-height: 19px;
     font-size: 16px;
     font-weight: 500;
@@ -236,6 +245,46 @@ a {
 
 .btn-whitetext {
     color: white;
+}
+
+.round1 {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 18px;
+    top: 568px;
+}
+
+.round2 {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 18px;
+    top: 673px;
+}
+
+.round3 {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 18px;
+    top: 778px;
+}
+/****** Nouveautés ******/
+
+.new {
+    background: var(--Turquoise);
+    width: 80px;
+    height: 29px;
+    box-shadow: 0px 2px 4px rgba(0,0,0.15);
+    border-radius: 2px;
+    position: absolute;
+    left: 240px;
+    bottom: 200px;
+    display: flex;
+    color: var(--Green);
+    justify-content: center;
+    align-items: center;
 }
 
 /****** Restaurants ******/
@@ -282,17 +331,17 @@ a {
     margin-left: 13px;
     margin-bottom: 0px;
     margin-top: 14px;
-    font: var(--Text);
+    font-family: var(--Text);
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
 }
 
-.restaurants-card p {
+.lieu {
     margin-left: 13px;
     margin-bottom: 12px;
     margin-top: 5px;
-    font: var(--Text);
+    font-family: var(--Text);
     font-weight: 300;
     font-size: 17px;
     line-height: 20px;
@@ -310,7 +359,7 @@ footer {
 footer h3 {
     margin-top: 0px;
     padding-top: 22px;
-    font: var(--Title);
+    font-family: var(--Title);
     font-weight: 400;
     font-style: italic;
     font-size: 18px;

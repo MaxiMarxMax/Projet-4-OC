@@ -1,0 +1,109 @@
+/****** Général ******/
+
+:root {
+    --Turquoise: #99E2D0;
+    --Green: #008766;
+    --Cyan: #89c8fa;
+    --NavyBlue: #003a68;
+    --Purple: #9356dc;
+
+    --Background-light: #FFFFFF;
+    --Background-Restaurants: #F7F7F7;
+    --Background-Dark: #EAEAEA;
+    --Background-Darker: #353535;
+
+    --Title: 'Shrikhand', cursive;
+    --Text: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+/****** OhMyFood ******/
+
+.Titre {
+    width: 100%;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.OhMyFood {
+    width: 43.2%;
+    height: 44px;
+    color: #101010;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 44px;
+    font-family:  var(--Title);
+}
+
+/****** Flexbox ******/
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.just-cont {
+    justify-content: center;
+}
+
+.just-cont-fstart {
+    justify-content: flex-start;
+}
+
+.just-cont-fend {
+    justify-content: flex-end;
+}
+
+.align {
+    align-items: center;
+}
+
+.align-fstart {
+    align-items: flex-start;
+}
+
+.align-fend {
+    align-items: flex-end;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+}
+
+/****** Footer ******/
+
+footer {
+    background-color: var(--Background-Darker);
+    color: white;
+    padding-left: 25px;
+}
+
+footer h3 {
+    margin-top: 0px;
+    padding-top: 22px;
+    font-family: var(--Title);
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.Contact {
+    margin-bottom: 0px;
+    padding-bottom: 22px;
+}

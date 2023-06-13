@@ -1,0 +1,265 @@
+body {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.fa-store {
+  color: var(--Purple);
+  margin-right: 20px;
+}
+
+.fa-list-ul {
+  margin-right: 23px;
+  color: #7E7E7E;
+}
+
+.fa-mobile-screen {
+  margin-right: 27px;
+  color: #7E7E7E;
+}
+
+.fa-utensils {
+  margin-right: 11px;
+}
+
+.fa-handshake-angle {
+  margin-right: 11px;
+}
+
+.fonctionnement {
+  margin-top: 48px;
+  margin-bottom: 68px;
+}
+.fonctionnement .fonctionnement h2 {
+  margin-bottom: 26px;
+  margin-left: 20px;
+  font: var(--Text);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+}
+.fonctionnement .fonctionnement h2 .fonctionnement p {
+  font: var(--Text);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  color: #000000;
+  width: 85%;
+  height: 72.3px;
+  margin-right: 20px;
+  margin-left: 32px;
+  background-color: #f6f6f6;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.just-cont {
+  justify-content: center;
+}
+
+.just-cont-fstart {
+  justify-content: flex-start;
+}
+
+.just-cont-fend {
+  justify-content: flex-end;
+}
+
+.align {
+  align-items: center;
+}
+
+.align-fstart {
+  align-items: flex-start;
+}
+
+.align-fend {
+  align-items: flex-end;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.flex {
+  display: flex;
+}
+
+.border20 {
+  border-radius: 20px;
+}
+
+.shadow {
+  box-shadow: 0px 4px 15px;
+}
+
+.discover {
+  background-color: #F7F7F7;
+}
+.discover .discover p {
+  font: var(--Text);
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 34px;
+  margin-right: 26px;
+  margin-bottom: 27px;
+  text-align: center;
+}
+.discover .discover p .discover h2 {
+  font: var(--Text);
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-left: 42px;
+  margin-right: 58px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.discover .discover p .discover h2 .discover button {
+  margin-bottom: 57px;
+  margin-left: 82px;
+  margin-right: 75px;
+  color: white;
+  border-style: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Titre {
+  width: 100%;
+  height: 63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.OhMyFood {
+  width: 43.2%;
+  height: 44px;
+  font: var(--Title);
+  color: #101010;
+  font-weight: 400;
+  font-size: 30px;
+  font-style: italic;
+  line-height: 44px;
+}
+
+.Localisation {
+  background-color: #EAEAEA;
+  font: var(--Text);
+  font-weight: 500;
+  font-size: 16px;
+  width: 100%;
+  height: 50px;
+}
+.Localisation .Localisation button {
+  border-style: none;
+  background-color: var(--Background-Dark);
+  font-family: var(--Title);
+  line-height: 19px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.Localisation .Localisation button .Localisation i {
+  margin-right: 17px;
+}
+
+.btn-round {
+  border-radius: 25px;
+}
+
+.btn {
+  width: 58%;
+  height: 50px;
+}
+
+.linear-btn {
+  background: linear-gradient(#9356DC, #FF79DA);
+}
+
+.btn-whitetext {
+  color: white;
+}
+
+.card-title {
+  font-size: 16px;
+  margin-left: 13px;
+  margin-bottom: 0px;
+  margin-top: 14px;
+  font: var(--Text);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.restaurants-card {
+  width: 90.6%;
+  height: 251px;
+  background-color: var(--Background-light);
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 14px;
+  margin-right: 18px;
+  margin-bottom: 9px;
+  margin-top: 9px;
+  filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+.restaurants-card .restaurants-card img {
+  width: 100%;
+  height: 174px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.restaurants-card .restaurants-card img .restaurants-card p {
+  margin-left: 13px;
+  margin-bottom: 12px;
+  margin-top: 5px;
+  font: var(--Text);
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.restaurants h2 {
+  padding-top: 54px;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+footer {
+  background-color: var(--Background-Darker);
+  color: white;
+  padding-left: 25px;
+}
+footer footer h3 {
+  margin-top: 0px;
+  padding-top: 22px;
+  font: var(--Title);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.Contact {
+  margin-bottom: 0px;
+  padding-bottom: 22px;
+}/*# sourceMappingURL=index.css.map */
