@@ -1,0 +1,262 @@
+/****** Général ******/
+
+:root {
+    --Turquoise: #99E2D0;
+    --Green: #008766;
+    --Cyan: #89c8fa;
+    --NavyBlue: #003a68;
+    --Purple: #9356dc;
+
+    --Background-light: #FFFFFF;
+    --Background-Restaurants: #F7F7F7;
+    --Background-Dark: #EAEAEA;
+    --Background-Darker: #353535;
+
+    --Title: 'Shrikhand', cursive;
+    --Text: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.background_img {
+    width: 100%;
+    height: 275px;
+    object-fit: contain;
+}
+
+/****** SVG ******/
+
+.fa-heart {
+    width: 22px;
+    height: 21px;
+    font-size: 22px;
+    position: absolute;
+    left: 316px;
+    bottom: 1246px;
+    top: 407px;
+    right: 41px;
+}
+
+.fa-arrow-left {
+    font-size: 17px;
+    color: #353535;
+}
+
+.fa-utensils {
+    margin-right: 11px;
+}
+
+.fa-handshake-angle {
+    margin-right: 11px;
+}
+
+/****** Header ******/
+
+header {
+    width: 100%;
+    height: 63px;
+}
+
+/****** Cadres ******/
+
+.border15 {
+    border-radius: 15px;
+}
+
+.shadow {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
+}
+
+/****** OhMyFood ******/
+
+.TITRE {
+    width: 100%;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.OhMyFood {
+    width: 43.2%;
+    height: 44px;
+    color: #101010;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 44px;
+    font-family:  var(--Title);
+    padding-bottom: 5px;
+    padding-top: 14px;
+}
+
+/******  Entrées ******/
+
+.width93 {
+    width: 93%;
+}
+
+.height70 {
+    height: 70px;
+}
+
+.Entrées {
+    margin-top: 42px;
+    padding-left: 13px;
+}
+
+.entrées2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+/****** Plats ******/
+
+.Plats {
+    margin-top: 40px;
+    padding-left: 13px;
+}
+
+.plat2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+/****** Desserts ******/
+
+.Desserts {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 13px;
+}
+
+.dessert2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+/****** Menu ******/
+
+.Menu h2 {
+    padding-top: 32px;
+    padding-left: 4px;
+    margin-bottom: -19px;
+    font-family: var(--Title);
+    font-weight: 400;
+    font-style: italic;
+    font-size: 28px;
+    line-height: 41px;
+}
+
+.food {
+    padding-left: 15px;
+    padding-top: 12px;
+}
+
+.description {
+    padding-left: 15px;
+}
+
+.Titre {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #000000;
+    padding-left: 13px;
+}
+
+.Prix {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17.63px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Menu {
+    background: #F6F6F6;
+    padding-left: 13px;
+    border-radius:30px 30px 0px 0px;
+    font-family: var(--Text);
+    height: 1307px;
+}
+
+button {
+    width: 49.6%;
+    height: 50px;
+    border-radius: 25px;
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    box-shadow: 0px 4px 10px;
+    border: none;
+}
+
+/****** Flexbox ******/
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.just-cont {
+    justify-content: center;
+}
+
+.just-cont-fstart {
+    justify-content: flex-start;
+}
+
+.just-cont-fend {
+    justify-content: flex-end;
+}
+
+.align {
+    align-items: center;
+}
+
+.align-fstart {
+    align-items: flex-start;
+}
+
+.align-fend {
+    align-items: flex-end;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+}
+
+/****** Footer ******/
+
+footer {
+    background-color: var(--Background-Darker);
+    color: white;
+    padding-left: 25px;
+}
+
+footer h3 {
+    margin-top: 0px;
+    padding-top: 22px;
+    font-family: var(--Title);
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.Contact {
+    margin-bottom: 0px;
+    padding-bottom: 22px;
+}
