@@ -100,8 +100,7 @@ a {
     height: 24px;
     color: #FFFFFF;
     position: absolute;
-    left: 19px;
-    top: 592px;
+    left: -11px;
 }
 
 .n2 {
@@ -111,8 +110,7 @@ a {
     height: 24px;
     color: #FFFFFF;
     position: absolute;
-    left: 19px;
-    top: 699px;
+    left: -11px;
 }
 
 .n3 {
@@ -122,8 +120,7 @@ a {
     height: 24px;
     color: #FFFFFF;
     position: absolute;
-    left: 19px;
-    top: 801px;
+    left: -11px;
 }
 
 .fonctionnementh2 {
@@ -149,9 +146,11 @@ a {
     height: 72.30px;
     margin-right: 20px;
     margin-left: 32px;
+    margin-bottom: 25px;
     background-color: #f6f6f6;
     position: relative;
 }
+
 
 /****** Flexbox ******/
 
@@ -449,8 +448,6 @@ footer p {
     height: 24px;
     color: #FFFFFF;
     position: absolute;
-    left: 19px;
-    top: 494px;
     }
 
     .n2 {
@@ -460,8 +457,6 @@ footer p {
     height: 24px;
     color: #FFFFFF;
     position: absolute;
-    left: 362px;
-    top: 494px;
     }
 
     .n3 {
@@ -471,8 +466,6 @@ footer p {
     height: 24px;
     color: #FFFFFF;
     position: absolute;
-    left: 701px;
-    top: 494px;
     }
 
     .card-title {
