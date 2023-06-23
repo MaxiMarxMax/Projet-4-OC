@@ -294,3 +294,73 @@ footer p {
     margin-bottom: 0px;
     padding-bottom: 22px;
 }
+
+@media (min-width:1025px) {
+
+    .Menu {
+        width: 73%;
+        margin-left: 110px;
+    }
+
+    .OhMyFood {
+        margin-left: 285px;
+    }
+
+    .Menu h2 {
+        padding-left: 200px;
+    }
+
+    .fa-heart {
+        right: 265px;
+    }
+
+    footer {
+        background-color: var(--Background-Darker);
+        color: white;
+        padding-left: 25px;
+        height: 114px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    footer h3 {
+        margin-top: 0px;
+        padding-top: 22px;
+        font-family: var(--Title);
+        font-weight: 400;
+        font-style: italic;
+        font-size: 18px;
+        line-height: 27px;
+        position: absolute;
+        right: 40px;
+        bottom: 10px;
+    }
+    
+    footer p {
+        font-family: var(--Text);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18.75px;
+        padding-top: 31px;
+        margin: 0px;
+    }
+
+    .Mentions {
+        margin-left: 40px;
+    }
+    
+    .Contact {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-right: 5px;
+        margin-left: 10px;
+    }
+
+    .ustensils {
+        margin-right: 10px;
+    }
+
+}
