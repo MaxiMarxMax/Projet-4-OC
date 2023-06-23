@@ -28,13 +28,27 @@ body {
 
 /****** SVG ******/
 
-.fa-heart {
-    width: 22px;
-    height: 21px;
-    font-size: 22px;
+.full {
+    color: #9747ff;
     position: absolute;
+    font-size: 22px;
     top: 41px;
     right: 21px;
+}
+
+.fa-solid {
+    opacity: 0;
+}
+
+.empty {
+    position: absolute;
+    font-size: 22px;
+    top: 41px;
+    right: 21px;
+}
+
+.fa-solid:hover {
+    opacity: 1;
 }
 
 .fa-arrow-left {

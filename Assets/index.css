@@ -62,6 +62,29 @@ a {
     margin-right: 11px;
 }
 
+.full {
+    color: #9747ff;
+    position: absolute;
+    font-size: 22px;
+    top: 174px;
+    left: 280px;
+}
+
+.fa-solid {
+    opacity: 0;
+}
+
+.empty {
+    position: absolute;
+    font-size: 22px;
+    top: 174px;
+    left: 280px;
+}
+
+.fa-solid:hover {
+    opacity: 1;
+}
+
 /****** Fonctionnement ******/
 
 .fonctionnement {
