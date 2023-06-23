@@ -56,6 +56,32 @@ a {
   background-color: #f6f6f6;
 }
 
+.fonc {
+  font-family: var(--Text);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  color: #000000;
+  width: 85%;
+  height: 72.3px;
+  margin-right: 20px;
+  margin-left: 32px;
+  margin-bottom: 25px;
+  background-color: #f6f6f6;
+  position: relative;
+}
+
+.n1 .n2 .n3 {
+  background: #9356DC;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  color: #FFFFFF;
+  position: absolute;
+  left: -11px;
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -103,7 +129,7 @@ a {
 }
 
 .shadow {
-  box-shadow: 0px 4px 15px;
+  box-shadow: 0px 4.0114941597px 15.0431032181px 0px rgba(0, 0, 0, 0.1019607843);
 }
 
 .discover {
@@ -194,6 +220,22 @@ a {
   color: white;
 }
 
+.new {
+  background: var(--Turquoise);
+  width: 80px;
+  height: 29px;
+  box-shadow: 0px 2px 4px rgb(0, 0, 0);
+  border-radius: 2px;
+  position: absolute;
+  right: 15px;
+  top: 1px;
+  display: flex;
+  color: var(--Green);
+  justify-content: center;
+  align-items: center;
+  font-family: var(--Text);
+}
+
 .card-title {
   font-size: 16px;
   margin-left: 13px;
@@ -216,6 +258,9 @@ a {
   margin-bottom: 9px;
   margin-top: 9px;
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .restaurants-card .restaurants-card img {
   width: 100%;
@@ -244,6 +289,29 @@ a {
   margin-left: 20px;
 }
 
+.restaurants {
+  background-color: var(--Background-Restaurants);
+  padding-bottom: 66px;
+  position: relative;
+}
+
+.card-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.lieu {
+  margin-left: 13px;
+  margin-bottom: 12px;
+  margin-top: 5px;
+  font-family: var(--Text);
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
+}
+
 footer {
   background-color: var(--Background-Darker);
   color: white;
@@ -262,4 +330,96 @@ footer footer h3 {
 .Contact {
   margin-bottom: 0px;
   padding-bottom: 22px;
+}
+
+@media (min-width: 1025px) {
+  .fonctionnement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .restaurants-card {
+    width: 38%;
+    height: 251px;
+    background-color: var(--Background-light);
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 14px;
+    margin-right: 104px;
+    margin-bottom: 9px;
+    margin-top: 32px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+  }
+  .restaurants-card .restaurants-card img {
+    width: 100%;
+    height: 174px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 0px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .restaurants {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 80px;
+  }
+  .restaurants .restauranth2 {
+    position: absolute;
+    left: 2px;
+    top: -25px;
+  }
+  .restaurants h2 {
+    padding-top: 54px;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  footer {
+    background-color: var(--Background-Darker);
+    color: white;
+    padding-left: 25px;
+    height: 114px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  footer footer h3 {
+    margin-top: 0px;
+    padding-top: 22px;
+    font-family: var(--Title);
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 27px;
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+  }
+  footer footer h3 footer p {
+    font-family: var(--Text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+    padding-top: 31px;
+    margin: 0px;
+  }
+  .Contact {
+    margin-bottom: 0px;
+    padding-bottom: 22px;
+  }
+  .Mentions {
+    margin-left: 40px;
+  }
+  .ustensils {
+    margin-right: 10px;
+  }
 }/*# sourceMappingURL=index.css.map */
