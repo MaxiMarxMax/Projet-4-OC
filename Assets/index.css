@@ -70,7 +70,7 @@ a {
     left: 280px;
 }
 
-.fa-solid {
+.solid {
     opacity: 0;
 }
 
@@ -81,7 +81,7 @@ a {
     left: 280px;
 }
 
-.fa-solid:hover {
+.solid:hover {
     opacity: 1;
 }
 
@@ -569,6 +569,20 @@ footer p {
 
     .ustensils {
         margin-right: 10px;
+    }
+
+    .empty {
+        position:absolute;
+        font-size: 22px;
+        top: 174px;
+        left: 339px;
+    }
+
+    .full {
+        position:absolute;
+        font-size: 22px;
+        top: 174px;
+        left: 339px; 
     }
 
 }

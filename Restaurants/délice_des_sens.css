@@ -28,13 +28,27 @@ body {
 
 /****** SVG ******/
 
-.fa-heart {
-    width: 22px;
-    height: 21px;
-    font-size: 22px;
+.full {
+    color: #9747ff;
     position: absolute;
+    font-size: 22px;
     top: 41px;
     right: 21px;
+}
+
+.solid {
+    opacity: 0;
+}
+
+.empty {
+    position: absolute;
+    font-size: 22px;
+    top: 41px;
+    right: 21px;
+}
+
+.solid:hover {
+    opacity: 1;
 }
 
 .fa-arrow-left {
@@ -115,9 +129,27 @@ header {
     padding-left: 13px;
 }
 
+.entrées1 {
+    border-radius: 15px;
+    width: 93%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
+}
+
 .entrées2 {
     margin-top: 12px;
     margin-bottom: 12px;
+    border-radius: 15px;
+    width: 93%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
+}
+
+.entrées3 {
+    border-radius: 15px;
+    width: 93%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
 }
 
 /****** Plats ******/
@@ -127,9 +159,27 @@ header {
     padding-left: 13px;
 }
 
+.plat1 {
+    border-radius: 15px;
+    width: 93%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
+}
+
 .plat2 {
     margin-top: 12px;
     margin-bottom: 12px;
+    border-radius: 15px;
+    width: 93%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
+}
+
+.plat3 {
+    border-radius: 15px;
+    width: 93%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
 }
 
 /****** Desserts ******/
@@ -140,9 +190,27 @@ header {
     padding-left: 13px;
 }
 
+.dessert1 {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
+    width: 93%;
+    border-radius: 15px;
+}
+
 .dessert2 {
     margin-top: 12px;
     margin-bottom: 12px;
+    border-radius: 15px;
+    width: 93%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
+}
+
+.dessert3 {
+    border-radius: 15px;
+    width: 93%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
 }
 
 /****** Menu ******/
@@ -180,6 +248,9 @@ header {
     line-height: 18.75px;
     color: #000000;
     padding-left: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start ;
 }
 
 .Commander {
@@ -216,6 +287,10 @@ button {
     background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
     box-shadow: 0px 4px 10px;
     border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /****** Flexbox ******/
@@ -300,6 +375,7 @@ footer p {
     .Menu {
         width: 73%;
         margin-left: 110px;
+        margin-bottom: -43px;
     }
 
     .OhMyFood {
@@ -361,5 +437,26 @@ footer p {
 
     .ustensils {
         margin-right: 10px;
+    }
+    *
+    .button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 39px;
+    }
+
+    .empty {
+        position: absolute;
+        font-size: 22px;
+        top: 17px;
+        right: 262px;
+    }
+
+    .full {
+        position: absolute;
+        font-size: 22px;
+        top: 17px;
+        right: 262px;  
     }
 }
