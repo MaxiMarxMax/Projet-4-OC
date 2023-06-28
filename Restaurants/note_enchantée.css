@@ -32,7 +32,7 @@ body {
     color: #9747ff;
     position: absolute;
     font-size: 22px;
-    top: 41px;
+    top: 20px;
     right: 21px;
 }
 
@@ -43,7 +43,7 @@ body {
 .empty {
     position: absolute;
     font-size: 22px;
-    top: 41px;
+    top: 20px;
     right: 21px;
 }
 
@@ -116,14 +116,6 @@ header {
 
 /******  Entrées ******/
 
-.width93 {
-    width: 93%;
-}
-
-.height70 {
-    height: 70px;
-}
-
 .Entrées {
     margin-top: 42px;
     padding-left: 13px;
@@ -134,6 +126,7 @@ header {
     width: 93%;
     background-color: #FFFFFF;
     box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
+    position: relative;
 }
 
 .entrées2 {
@@ -143,6 +136,7 @@ header {
     width: 93%;
     background-color: #FFFFFF;
     box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
+    position: relative;
 }
 
 .entrées3 {
@@ -150,6 +144,7 @@ header {
     width: 93%;
     background-color: #FFFFFF;
     box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
+    position: relative;
 }
 
 /****** Plats ******/
@@ -164,6 +159,7 @@ header {
     width: 93%;
     background-color: #FFFFFF;
     box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
+    position: relative;
 }
 
 .plat2 {
@@ -173,6 +169,7 @@ header {
     width: 93%;
     background-color: #FFFFFF;
     box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
+    position: relative;
 }
 
 .plat3 {
@@ -180,6 +177,7 @@ header {
     width: 93%;
     background-color: #FFFFFF;
     box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
+    position: relative;
 }
 
 /****** Desserts ******/
@@ -195,6 +193,7 @@ header {
     box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
     width: 93%;
     border-radius: 15px;
+    position: relative;
 }
 
 .dessert2 {
@@ -204,6 +203,7 @@ header {
     width: 93%;
     background-color: #FFFFFF;
     box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
+    position: relative;
 }
 
 .dessert3 {
@@ -211,6 +211,7 @@ header {
     width: 93%;
     background-color: #FFFFFF;
     box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
+    position: relative;
 }
 
 /****** Menu ******/
@@ -291,6 +292,36 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ajout {
+    width: 59px;
+    height: 71px;
+    border:solid #99E2D0 2px ;
+    border-radius: 0px 15px 15px 0px;
+    background:#99E2D0;
+    position: absolute;
+    left: 260px;
+    top: -15px;
+    opacity: 0;
+}
+
+.ajout:hover {
+    opacity: 1;
+}
+
+.check {
+    position: absolute;
+    top: 24px;
+    right: 18px;
+    font-size: 22px;
+    color: white;
 }
 
 /****** Flexbox ******/
@@ -458,5 +489,9 @@ footer p {
         font-size: 22px;
         top: 17px;
         right: 262px;  
+    }
+    .ajout {
+        top:-15px ;
+        left:619px ;
     }
 }
