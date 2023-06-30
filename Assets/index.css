@@ -63,7 +63,7 @@ a {
 }
 
 .full {
-    color: #9747ff;
+    color: #9356DC;
     position: absolute;
     font-size: 22px;
     top: 174px;
@@ -72,6 +72,7 @@ a {
 
 .solid {
     opacity: 0;
+    transition: opacity 0.5s;
 }
 
 .empty {

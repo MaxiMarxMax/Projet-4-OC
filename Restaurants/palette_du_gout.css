@@ -38,6 +38,13 @@ body {
 
 .solid {
     opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .empty {
@@ -119,6 +126,17 @@ header {
 .Entrées {
     margin-top: 42px;
     padding-left: 13px;
+    animation: start 1s forwards;
+    opacity: 0;
+}
+
+@keyframes start {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .entrées1 {
@@ -147,11 +165,37 @@ header {
     position: relative;
 }
 
+.test {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.test:hover .ajout {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.ajout {
+    opacity: 1 ;
+}
+
 /****** Plats ******/
 
 .Plats {
     margin-top: 40px;
     padding-left: 13px;
+    animation: follow 1s forwards 1s;
+    opacity: 0;
+}
+
+@keyframes follow {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .plat1 {
@@ -186,6 +230,17 @@ header {
     margin-top: 40px;
     margin-bottom: 40px;
     padding-left: 13px;
+    animation: final 1s forwards 2s;
+    opacity: 0;
+}
+
+@keyframes final {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .dessert1 {
@@ -306,14 +361,7 @@ button {
     border:solid #99E2D0 2px ;
     border-radius: 0px 15px 15px 0px;
     background:#99E2D0;
-    position: absolute;
-    left: 260px;
-    top: -15px;
-    opacity: 0;
-}
-
-.ajout:hover {
-    opacity: 1;
+    transform: translateX(59px);
 }
 
 .check {
