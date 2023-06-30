@@ -45,6 +45,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    margin-top: -102px;
 }
 
 .empty {
@@ -293,6 +294,8 @@ header {
     font-family: var(--Text);
     font-weight: 500;
     font-size: 16px;
+    margin-bottom: 9px;
+    margin-top: 0px;
 }
 
 .description {
@@ -301,6 +304,7 @@ header {
     font-weight: 200;
     font-size: 13px;
     color: #000000;
+    margin-top: -1px;
 }
 
 .Titre {
@@ -329,6 +333,8 @@ header {
     justify-content: flex-end;
     padding-bottom: 13.5px;
     padding-right: 13.5px;
+    margin-bottom: 15px;
+    margin-top: -29px;
 }
 
 .Menu {
@@ -366,6 +372,7 @@ button {
     border-radius: 0px 15px 15px 0px;
     background:#99E2D0;
     transform: translateX(59px);
+    margin-bottom: -1px;
 }
 
 .check {
