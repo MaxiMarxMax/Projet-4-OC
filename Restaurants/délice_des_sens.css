@@ -38,6 +38,14 @@ body {
 
 .solid {
     opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -102px;
 }
 
 .empty {
@@ -119,6 +127,17 @@ header {
 .Entrées {
     margin-top: 42px;
     padding-left: 13px;
+    animation: start 1s forwards;
+    opacity: 0;
+}
+
+@keyframes start {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .entrées1 {
@@ -147,11 +166,44 @@ header {
     position: relative;
 }
 
+.test {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.test:hover .ajout {
+    opacity: 1;
+    transform: translateX(0);
+    transition-duration: 0.5s;
+}
+
+.ajout {
+    opacity: 0 ;
+}
+
+.test:hover .Prix {
+    opacity: 1;
+    transform: translateX(-60px);
+    transition-duration: 0.5s;
+}
+
 /****** Plats ******/
 
 .Plats {
     margin-top: 40px;
     padding-left: 13px;
+    animation: follow 1s forwards 1s;
+    opacity: 0;
+}
+
+@keyframes follow {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .plat1 {
@@ -186,6 +238,17 @@ header {
     margin-top: 40px;
     margin-bottom: 40px;
     padding-left: 13px;
+    animation: final 1s forwards 2s;
+    opacity: 0;
+}
+
+@keyframes final {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .dessert1 {
@@ -232,7 +295,12 @@ header {
     padding-top: 12px;
     font-family: var(--Text);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
+    margin-bottom: 9px;
+    margin-top: 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .description {
@@ -241,6 +309,7 @@ header {
     font-weight: 200;
     font-size: 13px;
     color: #000000;
+    margin-top: -1px;
 }
 
 .Titre {
@@ -269,6 +338,7 @@ header {
     justify-content: flex-end;
     padding-bottom: 13.5px;
     padding-right: 13.5px;
+    margin-bottom: 15px;
     margin-top: -29px;
 }
 
@@ -306,14 +376,8 @@ button {
     border:solid #99E2D0 2px ;
     border-radius: 0px 15px 15px 0px;
     background:#99E2D0;
-    position: absolute;
-    left: 260px;
-    top: -15px;
-    opacity: 0;
-}
-
-.ajout:hover {
-    opacity: 1;
+    transform: translateX(59px);
+    margin-bottom: -1px;
 }
 
 .check {
@@ -409,6 +473,11 @@ footer p {
         margin-bottom: -43px;
     }
 
+    .food {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
     .OhMyFood {
         margin-left: 285px;
     }
@@ -419,6 +488,12 @@ footer p {
 
     .fa-heart {
         right: 265px;
+    }
+
+    .Prix {
+        margin-top: -41px;
+        margin-bottom: 15px;
+        padding-bottom: 33px;
     }
 
     footer {
@@ -492,7 +567,15 @@ footer p {
     }
 
     .ajout {
-        top:-15px ;
-        left:619px ;
+        margin-top: -1px;
+    }
+
+    .a {
+        margin-bottom: 1px;
+    }
+
+    .description {
+        margin-top: 18px;
+        margin-bottom: 10px;
     }
 }
