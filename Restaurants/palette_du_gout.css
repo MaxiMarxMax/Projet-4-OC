@@ -175,6 +175,7 @@ header {
 .test:hover .ajout {
     opacity: 1;
     transform: translateX(0);
+    transition-duration: 0.5s;
 }
 
 .ajout {
@@ -184,6 +185,7 @@ header {
 .test:hover .Prix {
     opacity: 1;
     transform: translateX(-60px);
+    transition-duration: 0.5s;
 }
 
 /****** Plats ******/
@@ -293,9 +295,12 @@ header {
     padding-top: 12px;
     font-family: var(--Text);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 9px;
     margin-top: 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .description {
@@ -486,8 +491,9 @@ footer p {
     }
 
     .Prix {
-        margin-top: -29px;
+        margin-top: -41px;
         margin-bottom: 15px;
+        padding-bottom: 33px;
     }
 
     footer {
@@ -565,8 +571,7 @@ footer p {
     }
 
     .a {
-        margin-top: -90px;
-        margin-bottom: -16px;
+        margin-bottom: 1px;
     }
 
     .description {
