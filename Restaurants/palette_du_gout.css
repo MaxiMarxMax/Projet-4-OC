@@ -188,6 +188,13 @@ header {
     transition-duration: 0.5s;
 }
 
+.test:hover .description {
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 /****** Plats ******/
 
 .Plats {
@@ -295,7 +302,7 @@ header {
     padding-top: 12px;
     font-family: var(--Text);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 9px;
     margin-top: 0px;
     text-overflow: ellipsis;
@@ -310,6 +317,7 @@ header {
     font-size: 13px;
     color: #000000;
     margin-top: -1px;
+    max-width: 175px;
 }
 
 .Titre {
