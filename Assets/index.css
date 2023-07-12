@@ -69,8 +69,8 @@ a {
     -webkit-text-fill-color: transparent;
     position: absolute;
     font-size: 22px;
-    top: 174px;
-    left: 280px;
+    bottom: 5px;
+    right: 44px;
 }
 
 .solid {
@@ -81,8 +81,8 @@ a {
 .empty {
     position: absolute;
     font-size: 22px;
-    top: 174px;
-    left: 280px;
+    bottom: 5px;
+    right: 44px;
 }
 
 .solid:hover {
@@ -104,6 +104,7 @@ a {
     color: #FFFFFF;
     position: absolute;
     left: -11px;
+    bottom: 22px;
 }
 
 .n2 {
@@ -114,6 +115,7 @@ a {
     color: #FFFFFF;
     position: absolute;
     left: -11px;
+    bottom: 22px;
 }
 
 .n3 {
@@ -124,9 +126,10 @@ a {
     color: #FFFFFF;
     position: absolute;
     left: -11px;
+    bottom: 22px;
 }
 
-.fonctionnementh2 {
+.fonctionnement h2 {
     margin-bottom: 26px;
     margin-left: 20px;
     font-family: var(--Text);
@@ -377,6 +380,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 
 .restaurants {
@@ -593,15 +597,15 @@ footer p {
     .empty {
         position:absolute;
         font-size: 22px;
-        top: 174px;
-        left: 339px;
+        bottom: 5px;
+        right: 44px;
     }
 
     .full {
         position:absolute;
         font-size: 22px;
-        top: 174px;
-        left: 339px; 
+        bottom: 5px;
+        right: 44px;
     }
 
 }
