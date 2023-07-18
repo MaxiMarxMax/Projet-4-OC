@@ -37,11 +37,12 @@ body {
     font-size: 22px;
     top: 20px;
     right: 56px;
+    transition: opacity 0.5s;
+    opacity: 0;
 }
 
-.solid {
-    opacity: 0;
-    transition: opacity 0.5s;
+.full:hover {
+    opacity: 1;
 }
 
 .a {
@@ -56,11 +57,6 @@ body {
     font-size: 22px;
     top: 20px;
     right: 56px;
-}
-
-.solid:hover {
-    opacity: 1;
-    transition-duration: 0.5s;
 }
 
 .fa-arrow-left {

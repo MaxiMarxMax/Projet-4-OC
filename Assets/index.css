@@ -25,6 +25,50 @@ a {
     color: black;
 }
 
+.spinner {
+    border: 5px solid var(--Cyan);
+    border-left-color: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: rotate 2s infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes hidden {
+    0% {
+        opacity: 1;
+        display: initial;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+        z-index: -1;
+    }
+}
+
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: hidden 0.5s 2s forwards;
+}
+
 /****** SVG ******/
 
 .fa-store {
