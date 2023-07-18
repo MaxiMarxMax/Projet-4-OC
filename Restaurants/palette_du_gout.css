@@ -60,6 +60,7 @@ body {
 
 .solid:hover {
     opacity: 1;
+    transition-duration: 0.5s;
 }
 
 .fa-arrow-left {
@@ -174,6 +175,7 @@ header {
     flex-direction: column;
     align-items: stretch;
     overflow: hidden;
+    white-space: nowrap;
 }
 
 .test:hover .ajout {
@@ -184,6 +186,7 @@ header {
 
 .ajout {
     opacity: 0 ;
+    transition-duration: 0.5s;
 }
 
 .test:hover .Prix {
@@ -498,7 +501,7 @@ footer p {
     }
 
     .Menu h2 {
-        padding-left: 200px;
+        padding-left: 379px;
     }
 
     .fa-heart {
@@ -571,14 +574,14 @@ footer p {
         position: absolute;
         font-size: 22px;
         top: 17px;
-        right: 262px;
+        right: 460px;
     }
 
     .full {
         position: absolute;
         font-size: 22px;
         top: 17px;
-        right: 262px;  
+        right: 460px;  
     }
 
     .ajout {
