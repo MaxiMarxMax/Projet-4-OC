@@ -27,7 +27,7 @@ a {
 
 .spinner {
     border: 5px solid var(--Cyan);
-    border-left-color: red;
+    border-left-color: var(--Turquoise);
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -115,6 +115,12 @@ a {
     font-size: 22px;
     bottom: 5px;
     right: 44px;
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+.full:hover {
+    opacity: 1;
 }
 
 .solid {
@@ -363,6 +369,7 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    opacity: 0.8;
 }
 
 .explore:hover {
